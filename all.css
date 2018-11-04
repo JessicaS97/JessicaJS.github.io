@@ -1,0 +1,99 @@
+html {
+    font-size: 100%;
+}
+
+body {
+    margin: 0;
+    font-size: 13px;
+    line-height: 1.6em;
+}
+
+#site {
+    overflow: hidden;
+    padding: 50px;
+}
+
+#header {
+    padding: 0px;
+    padding-bottom: 27px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+#headerInfo {
+    vertical-align: middle;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+#quote h1 {
+    font-size: 12px;
+    font-family: Verdana;
+    line-height: 1.7em;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 20px;
+    color: darksalmon;
+}
+
+#headerWrapper {
+    padding-bottom: 55px;
+}
+
+#pageWrapper {
+    width: 100%;
+}
+
+.gallery {
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+.item {
+    img {
+        width: 100%;
+    }
+}
+
+#footerWrapper {
+    padding-top: 45px;
+    padding-bottom: -40px;
+}
+
+
+#footerWrapper img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 20%;
+}
+
+#quote {
+    padding-bottom: 30px;
+}
+
+.column {
+    padding-left: 2.5%;
+    float: left;
+    width: 30%;
+    padding-bottom: 3%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.item {
+    padding-bottom: 19px;
+}
+
+.item img {
+       max-width: 95%;
+}
