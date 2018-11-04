@@ -70,3 +70,7 @@ body {
         margin-right: auto;
         width: 20%;
 }
+
+#quote {
+    padding-bottom: 30px;
+}
